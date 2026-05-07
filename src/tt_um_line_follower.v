@@ -1,7 +1,7 @@
 module tt_um_line_follower (
     input  wire        clk,
     input  wire        ena,
-    input  wire        rst,
+    input  wire        rst_n,
     input  wire [7:0]  ui_in,    
     input  wire [7:0]  uio_in,   
     output reg  [7:0]  uo_out,   
